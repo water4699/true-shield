@@ -323,10 +323,24 @@ npm run deploy:sepolia
 
 ### Deploy Frontend
 
+#### Vercel Deployment
+
+1. **Import Project**: Connect your GitHub repository to Vercel
+2. **Configure Build Settings**:
+   - **Root Directory**: `frontend`
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+3. **Environment Variables** (Optional):
+   - `VITE_WALLETCONNECT_PROJECT_ID`: Your WalletConnect project ID
+4. **Deploy**: Vercel will automatically build and deploy
+
+#### Manual Build
+
 ```bash
 cd frontend
+npm install
 npm run build
-# Deploy dist/ folder to Vercel, Netlify, or other hosting
+# Deploy the dist/ folder to Vercel, Netlify, or other hosting
 ```
 
 ## 🤝 Contributing
