@@ -82,10 +82,9 @@ The application supports both **Local Network** and **Sepolia Testnet**. You can
 
 ### 🔧 Network Configuration
 
-#### ✅ **Sepolia Testnet (Already Deployed)**
-- **Contract**: `0x6D333B72302A2A438a92d63aEefdAef3BDA49a33`
+#### ✅ **Sepolia Testnet**
 - **Chain ID**: 11155111
-- **Status**: Ready to use
+- **Status**: Ready for deployment
 
 #### 🏠 **Local Network (For Development)**
 - **Chain ID**: 31337
@@ -194,10 +193,9 @@ npx hardhat test test/GamePreferenceSurveyLocal.ts --network anvil
 
 ### Sepolia Testnet
 
-- **Contract Address**: `0x6D333B72302A2A438a92d63aEefdAef3BDA49a33`
 - **Network**: Sepolia
 - **Chain ID**: 11155111
-- **Explorer**: https://sepolia.etherscan.io/address/0x6D333B72302A2A438a92d63aEefdAef3BDA49a33
+- **Note**: Deploy contract using the provided scripts
 
 ## 📂 Project Structure
 
@@ -358,7 +356,7 @@ For questions or issues, please open an issue on GitHub.
 ## 🔗 Links
 
 - **Live Demo**: Coming soon
-- **Contract (Sepolia)**: https://sepolia.etherscan.io/address/0x6D333B72302A2A438a92d63aEefdAef3BDA49a33
+- **Contract (Sepolia)**: Deploy and verify on Etherscan
 - **Documentation**: See this README
 
 ---
